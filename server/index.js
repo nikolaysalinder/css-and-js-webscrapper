@@ -33,7 +33,10 @@ router.post("/scripts", async (ctx, next) => {
     }
     let links = document.getElementsByTagName("link");
     for (let link of links) {
-      if (link.getAttribute("type") == "text/css") {
+      if (
+        link.getAttribute("type") == "text/css" ||
+        link.getAttribute("as" == "style")
+      ) {
         result.push(link.getAttribute("href"));
       }
     }

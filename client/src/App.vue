@@ -58,9 +58,10 @@ export default {
 #site {
   padding: 7px;
   min-width: 250px;
+
+  margin-bottom: 20px;
 }
 .results {
   text-align: left;
-  margin-bottom: 20px;
 }
 </style>
