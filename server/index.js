@@ -35,7 +35,7 @@ router.post("/scripts", async (ctx, next) => {
     for (let link of links) {
       if (
         link.getAttribute("type") == "text/css" ||
-        link.getAttribute("as" == "style")
+        link.getAttribute("as") == "style"
       ) {
         result.push(link.getAttribute("href"));
       }
