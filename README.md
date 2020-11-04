@@ -20,4 +20,5 @@ Application to retrieve all js and css files from the specified site.
 4. Запускаем клиента командой `npm run serve`
 5. Открываем терминал в папке server.
 6. Устанавливаем все зависимости командой `npm i`
-7. Открываем браузер по адресу localhost:8080
+7. Запускаем сервер командой `node server.js`
+8. Открываем браузер по адресу localhost:8080
