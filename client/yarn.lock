@@ -8338,6 +8338,11 @@ vue-loader@^15.9.2:
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
 
+vue-loading-button@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/vue-loading-button/-/vue-loading-button-0.2.0.tgz#1e5f8bec0d79a2b6eb2a256d6e21b84e9d88449e"
+  integrity sha512-HjlNzS2deIaXGr7cZU/J/SiaZfA6OvJC+vzujTohUCs0cF+6G9p4SfTquT4watDFl5m3yO4OBEaxhE99JQLBNA==
+
 vue-style-loader@^4.1.0, vue-style-loader@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/vue-style-loader/-/vue-style-loader-4.1.2.tgz#dedf349806f25ceb4e64f3ad7c0a44fba735fcf8"
