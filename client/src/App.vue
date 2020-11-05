@@ -19,9 +19,15 @@
         <div class="sk-chase-dot"></div>
         <div class="sk-chase-dot"></div>
       </div>
-      <p v-bind:key="index" v-for="(result, index) in results" class="scripts">
-        {{ `${index + 1}) ${result}` }}
-      </p>
+      <div v-if="!isLoading" class="results__items">
+        <p
+          v-bind:key="index"
+          v-for="(result, index) in results"
+          class="scripts"
+        >
+          {{ `${index + 1}) ${result}` }}
+        </p>
+      </div>
     </div>
   </div>
 </template>
