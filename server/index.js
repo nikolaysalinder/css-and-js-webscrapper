@@ -20,7 +20,6 @@ router.post("/scripts", async (ctx, next) => {
   const page = await browser.newPage();
 
   await page.goto(domain).catch((err) => console.log(err));
-  await page.waitFor(1000);
 
   const scripts = await page.evaluate(() => {
     let result = [];
